@@ -4,16 +4,26 @@ Upstream-Contact: David Tolnay <dtolnay@gmail.com>
 Source: https://github.com/dtolnay/quote
 
 Files: *
-Copyright:
- 2016-2019 David Tolnay <dtolnay@gmail.com>
- 2016 The Rust Project Developers
+Copyright: FIXME (overlay) UNKNOWN-YEARS David Tolnay <dtolnay@gmail.com>
 License: MIT or Apache-2.0
+Comment:
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: ./LICENSE-MIT
+Copyright: 2016 The Rust Project Developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: debian/*
 Copyright:
- 2018-2019 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
- 2018 Ximin Luo <infinity0@debian.org>
- 2018-2019 Wolfgang Silbermayr <wolfgang@silbermayr.at>
+ 2018-2020 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018-2020 Ximin Luo <infinity0@debian.org>
+ 2018-2020 Wolfgang Silbermayr <wolfgang@silbermayr.at>
 License: MIT or Apache-2.0
 
 License: Apache-2.0
